@@ -21,7 +21,13 @@ for debugging
 /* /header */
 
 /* main */
-
+div.outside-container-color {
+  background-color: blue;
+}
+.adding-button,
+.all-task {
+  background-color: white;
+}
 main .container {
   width: 80%;
   margin: 50px auto;
@@ -58,10 +64,12 @@ main .container {
   border: 1px solid black;
   padding: 30px;
 }
+
 .today-todo,
 .upcoming-todo {
   line-height: 2.5;
 }
+
 .today-todo {
   border: 1px solid black;
   padding: 30px;
@@ -81,6 +89,7 @@ main .container {
   border-radius: 50%;
   border: 1px solid #6fc6b2;
   color: #6fc6b2;
+  line-height: normal;
 }
 
 .cross {
@@ -93,6 +102,7 @@ main .container {
   border: 1px solid #ea5851;
   color: #ea5851;
   border-radius: 50%;
+  line-height: normal;
 }
 
 div h3,
