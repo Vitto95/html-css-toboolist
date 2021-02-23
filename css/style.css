@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+}
+
+/* header */
+
+/*
+header div.container {
+  border: 1px solid black;
+}
+per debug 
+*/
+
+.logo-image {
+  display: inline-block;
+}
+
+.title {
+  display: inline-block;
+}
+/* /header */
