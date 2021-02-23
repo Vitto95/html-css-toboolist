@@ -5,7 +5,7 @@
 /* header */
 
 /*
-header div.container {
+header div.container { 
   border: 1px solid black;
 }
 for debugging 
@@ -23,6 +23,8 @@ for debugging
 /* main */
 div.outside-container-color {
   background-color: #f6f8f9;
+  border: 1px solid black;
+  padding: 40px;
 }
 .adding-button,
 .all-task {
