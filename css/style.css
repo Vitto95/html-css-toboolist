@@ -29,20 +29,21 @@ main .container {
 }
 
 /*button */
-button {
-  border-radius: 11%;
-}
+
 #add-task {
+  border-radius: 7px;
   background-color: #47adf1;
   color: white;
-  padding: 5px;
+  padding: 9px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border: none;
 }
 #add-section {
+  border-radius: 7px;
   color: #d4d8dc;
-  border-color: #d4d8dc;
+  border: 1px solid #d4d8dc;
   background-color: white;
-  padding: 5px;
+  padding: 9px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .adding-button {
@@ -56,6 +57,10 @@ button {
 .new-task-todo {
   border: 1px solid black;
   padding: 30px;
+}
+.today-todo,
+.upcoming-todo {
+  line-height: 2.5;
 }
 .today-todo {
   border: 1px solid black;
@@ -94,4 +99,48 @@ div h3,
 p {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+/* labels */
+.editorial {
+  border-radius: 15px;
+  color: white;
+  padding: 9px;
+  background-color: #45abea;
+  border: none;
+}
+.q1-goals {
+  border-radius: 15px;
+  color: white;
+  padding: 9px;
+  background-color: #9c72e4;
+  border: none;
+}
+.recruiting {
+  border-radius: 15px;
+  color: white;
+  padding: 9px;
+  background-color: #64c0a9;
+  border: none;
+}
+.mobile {
+  border-radius: 15px;
+  color: white;
+  padding: 9px;
+  background-color: #f29e33;
+  border: none;
+}
+.website {
+  border-radius: 15px;
+  color: white;
+  padding: 9px;
+  background-color: #d863a1;
+  border: none;
+}
+.sales {
+  border-radius: 15px;
+  color: white;
+  padding: 9px;
+  background-color: #b0c926;
+  border: none;
+}
+/* /labels */
 /* /main */
