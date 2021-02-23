@@ -27,21 +27,43 @@ main .container {
   margin: 50px auto;
   border: 1px solid black;
 }
+
+/*button */
+button {
+  border-radius: 11%;
+}
+#add-task {
+  background-color: #47adf1;
+  color: white;
+  padding: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#add-section {
+  color: #d4d8dc;
+  border-color: #d4d8dc;
+  background-color: white;
+  padding: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 .adding-button {
   border: 1px solid black;
-  padding: 10px;
+  padding-top: 12px;
+  padding-left: 30px;
+  padding-bottom: 8px;
 }
+
+/*/button */
 .new-task-todo {
   border: 1px solid black;
-  padding: 10px;
+  padding: 30px;
 }
 .today-todo {
   border: 1px solid black;
-  padding: 10px;
+  padding: 30px;
 }
 .upcoming-todo {
   border: 1px solid black;
-  padding: 10px;
+  padding: 30px;
 }
 
 .check {
@@ -66,5 +88,10 @@ main .container {
   border: 1px solid #ea5851;
   color: #ea5851;
   border-radius: 50%;
+}
+
+div h3,
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 /* /main */
