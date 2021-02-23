@@ -11,6 +11,10 @@ header div.container {
 for debugging 
 */
 
+header div.container {
+  vertical-align: middle;
+}
+
 .logo-image {
   display: inline-block;
 }
@@ -23,8 +27,10 @@ for debugging
 /* main */
 div.outside-container-color {
   background-color: #f6f8f9;
-  border: 1px solid black;
   padding: 40px;
+}
+div.adding-button {
+  margin-bottom: 2px;
 }
 .adding-button,
 .all-task {
@@ -33,7 +39,6 @@ div.outside-container-color {
 main .container {
   width: 80%;
   margin: auto;
-  border: 1px solid black;
   background-color: #f6f8f9;
 }
 
@@ -56,7 +61,6 @@ main .container {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .adding-button {
-  border: 1px solid black;
   padding-top: 12px;
   padding-left: 30px;
   padding-bottom: 8px;
@@ -64,7 +68,6 @@ main .container {
 
 /*/button */
 .new-task-todo {
-  border: 1px solid black;
   padding: 30px;
 }
 
@@ -74,11 +77,9 @@ main .container {
 }
 
 .today-todo {
-  border: 1px solid black;
   padding: 30px;
 }
 .upcoming-todo {
-  border: 1px solid black;
   padding: 30px;
 }
 
