@@ -22,7 +22,7 @@ for debugging
 
 /* main */
 div.outside-container-color {
-  background-color: blue;
+  background-color: #f6f8f9;
 }
 .adding-button,
 .all-task {
@@ -30,8 +30,9 @@ div.outside-container-color {
 }
 main .container {
   width: 80%;
-  margin: 50px auto;
+  margin: auto;
   border: 1px solid black;
+  background-color: #f6f8f9;
 }
 
 /*button */
